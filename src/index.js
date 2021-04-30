@@ -1,13 +1,18 @@
 import React from 'react';
+import 'materialize-css/dist/css/materialize.min.css';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from "react-redux";
+import configStore from './stores/configStore';
+
+const store = configStore();
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+  <App />
+  </Provider>,
   document.getElementById('root')
 );
 

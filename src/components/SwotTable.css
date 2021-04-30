@@ -1,0 +1,36 @@
+.table{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.heading-text1{
+    color: rgba(26, 218, 51, 0.884);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgba(89, 231, 120, 0.219);
+}
+
+.heading-text2{
+    color: rgba(177, 41, 23, 0.856);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgba(224, 138, 112, 0.219);
+}
+
+
+.heading-text3{
+    position: relative;
+    color: rgba(17, 20, 219, 0.856);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgba(135, 128, 226, 0.219);
+}
+
+.heading-text4{
+    color: rgba(135, 15, 190, 0.856);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgba(177, 106, 199, 0.219);
+}
+
+

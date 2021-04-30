@@ -1,0 +1,21 @@
+.add{
+    border: none;
+    border-bottom: 1px solid rgba(88, 90, 87, 0.842);
+}
+
+
+.add-btn{
+    background-color: rgba(126, 120, 120, 0.123); 
+    border: none;
+    color:black;
+    margin-left: 10px;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1%;
+}
+
+.add-btn:hover{
+    background-color: rgba(126, 120, 120, 0.507); 
+}
